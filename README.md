@@ -14,4 +14,5 @@
 - **Tan Y**, Wang R, Wu B, et al. [Retrieval-Enhanced Mutation Mastery: Augmenting Zero-Shot Prediction of Protein Language Model](https://arxiv.org/abs/2410.21127). *ISMB/ECCB*, 2025.
 - Li S*, **Tan Y***, Ke S, et al. [Immunogenicity Prediction with Dual Attention Enables Vaccine Target Selection](https://openreview.net/forum?id=hWmwL9gizZ). *ICLR*, 2025.
 - Li M*, **Tan Y***, Ma X, et al. [ProSST: Protein Language Modeling with Quantized Structure and Disentangled Attention](https://openreview.net/forum?id=4Z7RZixpJQ&referrer=%5Bthe%20profile%20of%20Bozitao%20Zhong%5D(%2Fprofile%3Fid%3D~Bozitao_Zhong1)). *NeurIPS*, 2024.
+- **Tan Y**, Zhou B, Zheng L, et al. [Semantical and Topological Protein Encoding Toward Enhanced Bioactivity and Thermostability](https://elifesciences.org/reviewed-preprints/98033). *eLife*, 2024.
 - **Tan Y**, Zhang Z, Li M, et al. [MedChatZH: A tuning LLM for traditional Chinese medicine consultations](https://www.sciencedirect.com/science/article/pii/S0010482524003743). *Computers in Biology and Medicine*, 2024.
