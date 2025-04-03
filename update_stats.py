@@ -4,7 +4,18 @@ from huggingface_hub import HfApi
 USERNAME = "tyang816"
 README_PATH = "README.md"
 
-def get_github_stats(username):
+EXTRA_REPOS = [
+    ("ai4protein", "VenusFactory"),
+    ("ai4protein", "ProtSSN"),
+    ("ai4protein", "VenusREM"),
+    ("ai4protein", "ProSST"),
+]
+
+def get_github_stats(username, extra_repos):
+    total_stars = 0
+    total_forks = 0
+
+    # 当前用户名下的所有仓库
     repos_url = f"https://api.github.com/users/{username}/repos?per_page=100"
     response = requests.get(repos_url)
     repos = response.json()
@@ -12,8 +23,20 @@ def get_github_stats(username):
     if isinstance(repos, dict) and "message" in repos:
         raise Exception(f"GitHub API error: {repos['message']}")
 
-    total_stars = sum(repo["stargazers_count"] for repo in repos)
-    total_forks = sum(repo["forks_count"] for repo in repos)
+    total_stars += sum(repo["stargazers_count"] for repo in repos)
+    total_forks += sum(repo["forks_count"] for repo in repos)
+
+    # 手动列出的额外仓库
+    for owner, repo_name in extra_repos:
+        repo_url = f"https://api.github.com/repos/{owner}/{repo_name}"
+        resp = requests.get(repo_url)
+        if resp.status_code == 200:
+            repo_data = resp.json()
+            total_stars += repo_data.get("stargazers_count", 0)
+            total_forks += repo_data.get("forks_count", 0)
+        else:
+            print(f"⚠️ Failed to fetch {owner}/{repo_name}: {resp.status_code}")
+
     return total_stars, total_forks
 
 def get_huggingface_downloads(username):
