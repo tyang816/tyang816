@@ -35,13 +35,13 @@ AI4Protein/SortingSignal
 AI4Protein/SortingSignal_AlphaFold2_PDB
 AI4Protein/SortingSignal_AlphaFold2
 AI4Protein/GO_MF
-AI4Protein/GO_MF_AlphaFol2
+AI4Protein/GO_MF_AlphaFold2
 AI4Protein/GO_MF_ESMFold
 AI4Protein/GO_CC
-AI4Protein/GO_CC_AlphaFol2
+AI4Protein/GO_CC_AlphaFold2
 AI4Protein/GO_CC_ESMFold
 AI4Protein/GO_BP
-AI4Protein/GO_BP_AlphaFol2
+AI4Protein/GO_BP_AlphaFold2
 AI4Protein/GO_BP_ESMFold
 AI4Protein/GO_PDB
 AI4Protein/GO_AlphaFold2_PDB
@@ -81,3 +81,4 @@ AI4Protein/FLIP_AAV_des-mut
 AI4Protein/FLIP_AAV_mut-des
 AI4Protein/FLIP_AAV_two-vs-rest
 AI4Protein/VenusREM
+AI4Protein/VenusMutHub
