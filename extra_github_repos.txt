@@ -2,3 +2,5 @@ ai4protein/VenusFactory
 ai4protein/ProtSSN
 ai4protein/VenusREM
 ai4protein/ProSST
+ai4protein/Pro-Prime
+ginnm/ProteinPretraining
