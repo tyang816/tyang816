@@ -21,3 +21,6 @@ AI4Protein/deep_bpe_800
 AI4Protein/deep_bpe_1600
 AI4Protein/deep_bpe_3200
 AI4Protein/deep_base
+AI4Protein/ProPrime_650M
+AI4Protein/Prime_690M
+AI4Protein/ProPrime_650M_OGT_Prediction
