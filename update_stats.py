@@ -67,7 +67,7 @@ def update_readme(stars, forks, model_downloads, dataset_downloads):
 
 if __name__ == "__main__":
     try:
-        stars, forks = get_github_stats(USERNAME)
+        stars, forks = get_github_stats(USERNAME, EXTRA_REPOS)
         model_downloads, dataset_downloads = get_huggingface_downloads(USERNAME)
         update_readme(stars, forks, model_downloads, dataset_downloads)
         print(f"✅ Updated README.md — Stars: {stars}, Forks: {forks}, Models: {model_downloads}, Datasets: {dataset_downloads}")
