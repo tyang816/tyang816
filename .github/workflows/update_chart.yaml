@@ -1,0 +1,32 @@
+name: Log Hugging Face Downloads Monthly
+
+on:
+  schedule:
+    - cron: "0 0 15 * *"  # 每月 15 号 00:00 UTC 运行
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  log-hf-downloads:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: pip install huggingface_hub matplotlib
+
+      - name: Run logging script
+        run: python log_hf_downloads.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add model_download_log.txt dataset_download_log.txt hf_downloads_chart.png
+          git commit -m "📊 Update HF download logs & chart" || exit 0
+          git push
