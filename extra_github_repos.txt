@@ -4,3 +4,5 @@ ai4protein/VenusREM
 ai4protein/ProSST
 ai4protein/Pro-Prime
 ginnm/ProteinPretraining
+bzho3923/ProtLGN
+bzho3923/CPDiffusion
