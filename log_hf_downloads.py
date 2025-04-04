@@ -72,39 +72,50 @@ def draw_plot():
     today = datetime.date.today()
     twelve_months_ago = today - datetime.timedelta(days=365)
     
-    # 筛选最近12个月的日期用于显示
-    recent_dates = [d for d in all_dates if d.date() >= twelve_months_ago]
-    recent_date_strs = [d.strftime("%Y-%m-%d") for d in recent_dates]
-    x = range(len(recent_date_strs))
-
-    # 创建完整的日期字典
-    model_dict = dict(zip([d.strftime("%Y-%m-%d") for d in dates_model], values_model))
-    data_dict = dict(zip([d.strftime("%Y-%m-%d") for d in dates_data], values_data))
-
-    # 计算所有日期的累计值
-    all_date_strs = [d.strftime("%Y-%m-%d") for d in all_dates]
-    model_values = [model_dict.get(d, 0) for d in all_date_strs]
-    data_values = [data_dict.get(d, 0) for d in all_date_strs]
+    # 创建月份字典来存储每月下载量
+    monthly_model_downloads = {}
+    monthly_dataset_downloads = {}
     
-    # 计算所有历史数据的累计值
-    cumulative_model_values = []
-    cumulative_data_values = []
-    model_sum = 0
-    data_sum = 0
+    # 处理模型下载数据
+    for date, value in zip(dates_model, values_model):
+        if date.date() >= twelve_months_ago:
+            month_key = date.strftime("%Y-%m")
+            if month_key in monthly_model_downloads:
+                monthly_model_downloads[month_key] += value
+            else:
+                monthly_model_downloads[month_key] = value
     
-    for m, d in zip(model_values, data_values):
-        model_sum += m
-        data_sum += d
-        cumulative_model_values.append(model_sum)
-        cumulative_data_values.append(data_sum)
+    # 处理数据集下载数据
+    for date, value in zip(dates_data, values_data):
+        if date.date() >= twelve_months_ago:
+            month_key = date.strftime("%Y-%m")
+            if month_key in monthly_dataset_downloads:
+                monthly_dataset_downloads[month_key] += value
+            else:
+                monthly_dataset_downloads[month_key] = value
     
-    # 创建完整日期到累计值的映射
-    model_cumulative_dict = dict(zip(all_date_strs, cumulative_model_values))
-    data_cumulative_dict = dict(zip(all_date_strs, cumulative_data_values))
+    # 确保所有月份都有数据
+    all_months = []
+    current_date = twelve_months_ago
+    while current_date <= today:
+        month_key = current_date.strftime("%Y-%m")
+        all_months.append(month_key)
+        # 移动到下个月
+        if current_date.month == 12:
+            current_date = datetime.date(current_date.year + 1, 1, 1)
+        else:
+            current_date = datetime.date(current_date.year, current_date.month + 1, 1)
     
-    # 获取最近12个月的累计值
-    recent_model_values = [model_cumulative_dict.get(d, 0) for d in recent_date_strs]
-    recent_data_values = [data_cumulative_dict.get(d, 0) for d in recent_date_strs]
+    # 排序月份
+    all_months.sort()
+    
+    # 获取每月的下载量
+    model_monthly_values = [monthly_model_downloads.get(month, 0) for month in all_months]
+    dataset_monthly_values = [monthly_dataset_downloads.get(month, 0) for month in all_months]
+    
+    # 美化月份标签显示
+    display_months = [f"{month[-2:]}/{month[:4]}" for month in all_months]
+    x = range(len(display_months))
 
     plt.figure(figsize=(12, 6))
     
@@ -116,15 +127,15 @@ def draw_plot():
     plt.gcf().set_facecolor('white')
     
     # 绘制折线图
-    plt.plot(x, recent_model_values, label="Cumulative Model Downloads", color="#1f77b4", linewidth=2, marker='o', markersize=6)
-    plt.plot(x, recent_data_values, label="Cumulative Dataset Downloads", color="#ff7f0e", linewidth=2, marker='s', markersize=6)
+    plt.plot(x, model_monthly_values, label="Monthly Model Downloads", color="#1f77b4", linewidth=2, marker='o', markersize=6)
+    plt.plot(x, dataset_monthly_values, label="Monthly Dataset Downloads", color="#ff7f0e", linewidth=2, marker='s', markersize=6)
 
     # 设置x轴标签
-    plt.xticks(ticks=x, labels=recent_date_strs, rotation=45)
+    plt.xticks(ticks=x, labels=display_months, rotation=45)
     
     # 设置y轴标签和标题
-    plt.ylabel("Cumulative Downloads", fontsize=12, fontweight='bold', color='#2c3e50')
-    plt.title("Cumulative Hugging Face Downloads (Last 12 Months)", fontsize=14, fontweight='bold', pad=20, color='#2c3e50')
+    plt.ylabel("Monthly Downloads", fontsize=12, fontweight='bold', color='#2c3e50')
+    plt.title("Monthly Hugging Face Downloads (Last 12 Months)", fontsize=14, fontweight='bold', pad=20, color='#2c3e50')
     
     # 添加图例
     plt.legend(fontsize=10, loc='upper left', framealpha=0.9)
