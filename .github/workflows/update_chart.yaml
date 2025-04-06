@@ -2,7 +2,7 @@ name: Log Hugging Face Downloads Monthly
 
 on:
   schedule:
-    - cron: "0 0 15 * *"  # 每月 15 号 00:00 UTC 运行
+    - cron: "0 1 1 * *"  # 每月 1 号 01:00 UTC 运行
   workflow_dispatch:
 
 permissions:

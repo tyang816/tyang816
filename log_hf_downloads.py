@@ -94,20 +94,12 @@ def draw_plot():
             else:
                 monthly_dataset_downloads[month_key] = value
     
-    # 确保所有月份都有数据
-    all_months = []
-    current_date = twelve_months_ago
-    while current_date <= today:
-        month_key = current_date.strftime("%Y-%m")
-        all_months.append(month_key)
-        # 移动到下个月
-        if current_date.month == 12:
-            current_date = datetime.date(current_date.year + 1, 1, 1)
-        else:
-            current_date = datetime.date(current_date.year, current_date.month + 1, 1)
+    # 获取所有有记录的月份并排序
+    all_months = sorted(list(set(monthly_model_downloads.keys()) | set(monthly_dataset_downloads.keys())))
     
-    # 排序月份
-    all_months.sort()
+    # 只保留最近12个月的数据
+    if len(all_months) > 12:
+        all_months = all_months[-12:]
     
     # 获取每月的下载量
     model_monthly_values = [monthly_model_downloads.get(month, 0) for month in all_months]
