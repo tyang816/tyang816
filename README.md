@@ -5,9 +5,9 @@
 ![Total Model Downloads](https://img.shields.io/badge/Total%20Model%20Downloads-13,881-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_models -->
 ![Total Dataset Downloads](https://img.shields.io/badge/Total%20Dataset%20Downloads-31,992-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_datasets -->
 
-**AI research**: Large Language Models, Graph Neural Networks
-
-**Biological research**: Directed Evolution, Function Prediction, Binder Design
+**AI Research**: Large Language Models, Graph Neural Networks
+**Biology Research**: Directed Evolution, Function Prediction, Binder Design
+**Email**: <a href="mailto:tanyang.august@gmail.com">tanyang.august@gmail.com</a>
 
 ## 📊 Recent Activity
 
