@@ -11,7 +11,7 @@
 
 ## 📊 Recent Activity
 
-- [2025.4.19] 🏆 [VenusREM](https://github.com/ai4protein/VenusREM) achieves **1st place** in [ProteinGym Substitution](https://proteingym.org/benchmarks) and [VenusMutHub](https://github.com/ai4protein/VenusMutHub) mutation prediction Leaderboard.
+- [2025.4.19] 🏆 [VenusREM](https://github.com/ai4protein/VenusREM) achieves **1st place** in [ProteinGym Substitution](https://proteingym.org/benchmarks) and [VenusMutHub](https://lianglab.sjtu.edu.cn/muthub/) mutation prediction Leaderboard.
 
 ## 🎈 Seleted Papers
 - **Tan Y**, Liu C, Gao J, et al. [VenusFactory: A Unified Platform for Protein Engineering Data Retrieval and Language Model Fine-Tuning](https://arxiv.org/abs/2503.15438). *ACL Demo* (Under review), 2025.
