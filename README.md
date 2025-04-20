@@ -9,6 +9,10 @@
 
 **Biological research**: Directed Evolution, Function Prediction, Binder Design
 
+## 📊 Recent Activity
+
+- [2025.4.19] 🏆 [VenusREM](https://github.com/ai4protein/VenusREM) achieves **1st place** in [ProteinGym Substitution](https://proteingym.org/benchmarks) and [VenusMutHub](https://github.com/ai4protein/VenusMutHub) mutation prediction Leaderboard.
+
 ## 🎈 Seleted Papers
 - **Tan Y**, Liu C, Gao J, et al. [VenusFactory: A Unified Platform for Protein Engineering Data Retrieval and Language Model Fine-Tuning](https://arxiv.org/abs/2503.15438). *ACL Demo* (Under review), 2025.
 - **Tan Y**, Wang R, Wu B, et al. [Retrieval-Enhanced Mutation Mastery: Augmenting Zero-Shot Prediction of Protein Language Model](https://arxiv.org/abs/2410.21127). *ISMB/ECCB*, 2025.
@@ -19,4 +23,9 @@
 
 ## 📈 Hugging Face Downloads Over Time
 
+<details>
+<summary>Click to expand</summary>
+
 <img src="hf_downloads_chart.png" alt="Download Chart" width="100%">
+
+</details>
