@@ -1,7 +1,7 @@
 # Hi, I'm Yang Tan 👋
 
-![Total Stars](https://img.shields.io/badge/Stars-585-blue?logo=github&style=flat-square) <!-- 🔄 stars -->
-![Total Forks](https://img.shields.io/badge/Forks-68-blue?logo=github&style=flat-square) <!-- 🔄 forks -->
+![Total Stars](https://img.shields.io/badge/Stars-586-blue?logo=github&style=flat-square) <!-- 🔄 stars -->
+![Total Forks](https://img.shields.io/badge/Forks-67-blue?logo=github&style=flat-square) <!-- 🔄 forks -->
 ![Total Model Downloads](https://img.shields.io/badge/Total%20Model%20Downloads-13,881-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_models -->
 ![Total Dataset Downloads](https://img.shields.io/badge/Total%20Dataset%20Downloads-31,992-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_datasets -->
 
