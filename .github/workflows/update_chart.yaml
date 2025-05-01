@@ -27,6 +27,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add model_download_log.txt dataset_download_log.txt hf_downloads_chart.png
+          git add log_model_download.txt log_dataset_download.txt hf_downloads_chart.png
           git commit -m "📊 Update HF download logs & chart" || exit 0
           git push
