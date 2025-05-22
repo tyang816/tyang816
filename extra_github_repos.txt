@@ -1,3 +1,6 @@
+ai4protein/VenusX
+ai4protein/VenusWSL
+ai4protein/VenusVaccine
 ai4protein/VenusFactory
 ai4protein/ProtSSN
 ai4protein/VenusREM
