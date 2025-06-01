@@ -77,7 +77,12 @@ def update_readme(stars, forks, model_downloads, dataset_downloads):
             lines[i] = f"![Total Stars](https://img.shields.io/badge/Stars-{stars}-blue?logo=github&style=flat-square) <!-- 🔄 stars -->\n"
         if "<!-- 🔄 forks -->" in line:
             lines[i] = f"![Total Forks](https://img.shields.io/badge/Forks-{forks}-blue?logo=github&style=flat-square) <!-- 🔄 forks -->\n"
-
+        if "<!-- 🔄 total_hf_models -->" in line:
+            lines[i] = f"![Total Model Downloads](https://img.shields.io/badge/Total%20Model%20Downloads-{model_downloads}-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_models -->\n"
+        if "<!-- 🔄 total_hf_datasets -->" in line:
+            lines[i] = f"![Total Dataset Downloads](https://img.shields.io/badge/Total%20Dataset%20Downloads-{dataset_downloads}-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_datasets -->\n"
+        
+        
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.writelines(lines)
 

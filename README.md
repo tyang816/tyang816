@@ -2,8 +2,8 @@
 
 ![Total Stars](https://img.shields.io/badge/Stars-664-blue?logo=github&style=flat-square) <!-- 🔄 stars -->
 ![Total Forks](https://img.shields.io/badge/Forks-74-blue?logo=github&style=flat-square) <!-- 🔄 forks -->
-![Total Model Downloads](https://img.shields.io/badge/Total%20Model%20Downloads-13,881-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_models -->
-![Total Dataset Downloads](https://img.shields.io/badge/Total%20Dataset%20Downloads-31,992-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_datasets -->
+![Total Model Downloads](https://img.shields.io/badge/Total%20Model%20Downloads-18,466-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_models -->
+![Total Dataset Downloads](https://img.shields.io/badge/Total%20Dataset%20Downloads-49,455-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_datasets -->
 
 **AI Research**: Large Language Models, Graph Neural Networks
 
@@ -16,7 +16,7 @@
 - [2025.4.19] 🏆 [VenusREM](https://github.com/ai4protein/VenusREM) achieves **1st place** in [ProteinGym Substitution](https://proteingym.org/benchmarks) and [VenusMutHub](https://lianglab.sjtu.edu.cn/muthub/) mutation prediction Leaderboard.
 
 ## 🎈 Seleted Papers
-- **Tan Y**, Liu C, Gao J, et al. [VenusFactory: A Unified Platform for Protein Engineering Data Retrieval and Language Model Fine-Tuning](https://arxiv.org/abs/2503.15438). *ACL Demo* (Under review), 2025.
+- **Tan Y**, Liu C, Gao J, et al. [VenusFactory: A Unified Platform for Protein Engineering Data Retrieval and Language Model Fine-Tuning](https://arxiv.org/abs/2503.15438). *ACL Demo*, 2025.
 - **Tan Y**, Wang R, Wu B, et al. [Retrieval-Enhanced Mutation Mastery: Augmenting Zero-Shot Prediction of Protein Language Model](https://arxiv.org/abs/2410.21127). *ISMB/ECCB*, 2025.
 - Li S*, **Tan Y***, Ke S, et al. [Immunogenicity Prediction with Dual Attention Enables Vaccine Target Selection](https://openreview.net/forum?id=hWmwL9gizZ). *ICLR*, 2025.
 - Li M*, **Tan Y***, Ma X, et al. [ProSST: Protein Language Modeling with Quantized Structure and Disentangled Attention](https://openreview.net/forum?id=4Z7RZixpJQ&referrer=%5Bthe%20profile%20of%20Bozitao%20Zhong%5D(%2Fprofile%3Fid%3D~Bozitao_Zhong1)). *NeurIPS*, 2024.
