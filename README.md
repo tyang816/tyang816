@@ -17,7 +17,7 @@
 
 ## 🎈 Seleted Papers
 - **Tan Y**, Liu C, Gao J, et al. [VenusFactory: A Unified Platform for Protein Engineering Data Retrieval and Language Model Fine-Tuning](https://arxiv.org/abs/2503.15438). *ACL Demo*, 2025.
-- **Tan Y**, Wang R, Wu B, et al. [Retrieval-Enhanced Mutation Mastery: Augmenting Zero-Shot Prediction of Protein Language Model](https://arxiv.org/abs/2410.21127). *ISMB/ECCB*, 2025.
+- **Tan Y**, Wang R, Wu B, et al. [From high-throughput evaluation to wet-lab studies: advancing mutation effect prediction with a retrieval-enhanced model](https://academic.oup.com/bioinformatics/article/41/Supplement_1/i401/8199374). *ISMB/ECCB*, 2025.
 - Li S*, **Tan Y***, Ke S, et al. [Immunogenicity Prediction with Dual Attention Enables Vaccine Target Selection](https://openreview.net/forum?id=hWmwL9gizZ). *ICLR*, 2025.
 - Li M*, **Tan Y***, Ma X, et al. [ProSST: Protein Language Modeling with Quantized Structure and Disentangled Attention](https://openreview.net/forum?id=4Z7RZixpJQ&referrer=%5Bthe%20profile%20of%20Bozitao%20Zhong%5D(%2Fprofile%3Fid%3D~Bozitao_Zhong1)). *NeurIPS*, 2024.
 - **Tan Y**, Zhou B, Zheng L, et al. [Semantical and Topological Protein Encoding Toward Enhanced Bioactivity and Thermostability](https://elifesciences.org/reviewed-preprints/98033). *eLife*, 2024.
