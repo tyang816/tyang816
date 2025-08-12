@@ -1,9 +1,9 @@
 # Hi, I'm Yang Tan 👋
 
-![Total Stars](https://img.shields.io/badge/Stars-768-blue?logo=github&style=flat-square) <!-- 🔄 stars -->
-![Total Forks](https://img.shields.io/badge/Forks-85-blue?logo=github&style=flat-square) <!-- 🔄 forks -->
-![Total Model Downloads](https://img.shields.io/badge/Total%20Model%20Downloads-153573-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_models -->
-![Total Dataset Downloads](https://img.shields.io/badge/Total%20Dataset%20Downloads-1894-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_datasets -->
+![Total Stars](https://img.shields.io/badge/Stars-771-blue?logo=github&style=flat-square) <!-- 🔄 stars -->
+![Total Forks](https://img.shields.io/badge/Forks-87-blue?logo=github&style=flat-square) <!-- 🔄 forks -->
+![Total Model Downloads](https://img.shields.io/badge/Total%20Model%20Downloads-154543-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_models -->
+![Total Dataset Downloads](https://img.shields.io/badge/Total%20Dataset%20Downloads-1865-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_datasets -->
 
 **AI Research**: Large Language Models, Graph Neural Networks
 
