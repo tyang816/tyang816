@@ -11,9 +11,7 @@
 
 **Email**: <a href="mailto:tanyang.august@gmail.com">tanyang.august@gmail.com</a>
 
-## 📊 Recent Activity
-
-- [2025.4.19] 🏆 [VenusREM](https://github.com/ai4protein/VenusREM) achieves **1st place** in [ProteinGym Substitution](https://proteingym.org/benchmarks) and [VenusMutHub](https://lianglab.sjtu.edu.cn/muthub/) mutation prediction Leaderboard.
+**Website**: https://tyang816.github.io/
 
 ## 🎈 Seleted Papers
 - **Tan Y**, Liu C, Gao J, et al. [VenusFactory: An Integrated System for Protein Engineering with Data Retrieval and Language Model Fine-Tuning](https://aclanthology.org/2025.acl-demo.23/). *ACL Demo*, 2025.
