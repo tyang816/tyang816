@@ -13,6 +13,8 @@
 
 **Website**: https://tyang816.github.io/
 
+**Platform**: http://venusfactory.cn/playground/
+
 ## 🎈 Seleted Papers
 - **Tan Y**, Liu C, Gao J, et al. [VenusFactory: An Integrated System for Protein Engineering with Data Retrieval and Language Model Fine-Tuning](https://aclanthology.org/2025.acl-demo.23/). *ACL Demo*, 2025.
 - **Tan Y**, Wang R, Wu B, et al. [From high-throughput evaluation to wet-lab studies: advancing mutation effect prediction with a retrieval-enhanced model](https://academic.oup.com/bioinformatics/article/41/Supplement_1/i401/8199374). *ISMB/ECCB*, 2025.
