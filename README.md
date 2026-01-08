@@ -2,8 +2,8 @@
 
 ![Total Stars](https://img.shields.io/badge/Stars-950-blue?logo=github&style=flat-square) <!-- 🔄 stars -->
 ![Total Forks](https://img.shields.io/badge/Forks-107-blue?logo=github&style=flat-square) <!-- 🔄 forks -->
-![Total Model Downloads](https://img.shields.io/badge/Total%20Model%20Downloads-4038-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_models -->
-![Total Dataset Downloads](https://img.shields.io/badge/Total%20Dataset%20Downloads-5801-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_datasets -->
+![Total Model Downloads](https://img.shields.io/badge/Total%20Model%20Downloads-3880-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_models -->
+![Total Dataset Downloads](https://img.shields.io/badge/Total%20Dataset%20Downloads-5912-orange?logo=huggingface&style=flat-square) <!-- 🔄 total_hf_datasets -->
 
 **AI Research**: Large Language Models, Graph Neural Networks
 
