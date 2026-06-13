@@ -13,7 +13,7 @@
 
 **Website**: https://tyang816.github.io/
 
-**Platform**: https://venusfactory.cn/playground/
+**Platform**: https://venusfactory.bio/
 
 ## 🎈 Seleted Papers
 - **Tan Y**, Gou W, Zhong B, et al. [VenusX: Unlocking Fine-Grained Functional Understanding of Proteins](https://openreview.net/forum?id=zcmL592XRG). *ICLR*, 2026.
