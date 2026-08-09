@@ -7,13 +7,9 @@
 
 **AI Research**: Large Language Models, Graph Neural Networks
 
-**Biology Research**: Directed Evolution, Function Prediction, Binder Design
+**Biology Research**: Directed Evolution, Function Prediction, Binder Design ; **Email**: <a href="mailto:tanyang.august@gmail.com">tanyang.august@gmail.com</a> ; **Website**: https://tyang816.github.io/
 
-**Email**: <a href="mailto:tanyang.august@gmail.com">tanyang.august@gmail.com</a>
-
-**Website**: https://tyang816.github.io/
-
-**Platform**: https://venusfactory.bio/
+**Platform**: https://venusfactory.bio/ & https://matvenus.com/
 
 ## 🎈 Seleted Papers
 - **Tan Y**, Gou W, Zhong B, et al. [VenusX: Unlocking Fine-Grained Functional Understanding of Proteins](https://openreview.net/forum?id=zcmL592XRG). *ICLR*, 2026.
