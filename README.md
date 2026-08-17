@@ -7,7 +7,9 @@
 
 **AI Research**: Large Language Models, Graph Neural Networks
 
-**Biology Research**: Directed Evolution, Function Prediction, Binder Design ; **Email**: <a href="mailto:tanyang.august@gmail.com">tanyang.august@gmail.com</a> ; **Website**: https://tyang816.github.io/
+**Biology Research**: Directed Evolution, Function Prediction, Binder Design
+
+**Email**: <a href="mailto:tanyang.august@gmail.com">tanyang.august@gmail.com</a> ; **Website**: https://tyang816.github.io/
 
 **Open-source Platform**: https://venusfactory.bio/ & **Official Platform**: https://matvenus.com/
 
