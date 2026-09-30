@@ -4,6 +4,7 @@ ai4protein/VenusVaccine
 ai4protein/VenusFactory
 ai4protein/ProtSSN
 ai4protein/VenusREM
+ai4protein/VenusREM-Harness
 ai4protein/ProSST
 ai4protein/Pro-Prime
 ai4protein/CPDiffusion-SS
